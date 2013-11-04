@@ -117,12 +117,6 @@ public class AboutActivity extends FragmentActivity {
         intent.setData(Uri.parse(getString(R.string.github_url)));
         startActivity(intent);
     }
-    public void launchDennis(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.dennis_url)));
-        startActivity(intent);
-    }
     public void launchKenneth(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);

@@ -43,12 +43,11 @@
     <string name="github_url">https://github.com/DU-Final</string>
 
     <!-- Maintainers -->
-    <string name="dennis">DEVICE: Samsung Galaxy S III (I9300)</string>
-    <string name="kenneth">DEVICE: Samsung Epic 4G Touch</string>
-    <string name="brian">DEVICE: Samsung Fascinate</string>
-    <string name="dennis_url">https://plus.google.com/110150707325272137288</string>
-    <string name="kenneth_url">https://plus.google.com/110561769492553874762</string>
+    <string name="devices_title">DEVICES:</string>
     <string name="brian_url">https://plus.google.com/115522815889154627721</string>
+    <string name="kenneth_url">https://plus.google.com/110561769492553874762</string>
+    <string name="brian_devices">SGS Fascinate and SGS 4</string>
+    <string name="kenneth_devices">HTC One, Samsung Epic 4GT and SGS Blaze 4G</string>
 
     <!-- Contributors -->
     <string name="contributors">Contributors</string>

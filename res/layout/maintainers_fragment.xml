@@ -46,14 +46,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10sp"
-                android:src="@drawable/dennis"
-                android:onClick="launchDennis" />
+                android:src="@drawable/brian"
+                android:onClick="launchBrian" />
 
-            <TextView android:id="@+id/maintainers_version"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingBottom="5sp"
+                android:text="@string/devices_title" />
+
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="5sp"
-                android:text="@string/dennis" />
+                android:textSize="15sp"
+                android:text="@string/brian_devices" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -62,24 +70,19 @@
                 android:src="@drawable/kenneth"
                 android:onClick="launchKenneth" />
 
-            <TextView android:id="@+id/maintainers_version"
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="5sp"
-                android:text="@string/kenneth" />
+                android:textSize="18sp"
+                android:text="@string/devices_title" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10sp"
-                android:src="@drawable/brian"
-                android:onClick="launchBrian" />
-
-            <TextView android:id="@+id/maintainers_version"
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingBottom="5sp"
-                android:text="@string/brian" />
+                android:textSize="15sp"
+                android:text="@string/kenneth_devices" />
 
             <TextView android:id="@+id/maintainers"
                 android:layout_width="wrap_content"

@@ -1,33 +1,48 @@
+
 Based on Android Open Kang Project (AOKP)
 
-This ROM was originally made out of pure boredom and for personal use. After sharing it with a few people, we decided to take it a step further and turn it into something special while still having fun. Since then we've decided to share this ROM with the community and have ported it over to several devices to include the GNEX, Nexus 4, HTC One, Note 2, EVO 3D and many more devices!
+The idea to start a ROM based off AOKP with added features for us was started out of curiosity and boredom. We started compiling ROMs for personal use and later started sharing them. After sharing it with a few people, we decided to take it a step further and fine tune the way we do things. Since then, is been nothing but fun and a true learning experience for all of us involved. We've received high praise from not only users but fellow developers of other ROMs that enjoy seeing things done the right way.
 
 ---------------------------------------------
 
 Developed by:
+
 Alex Cruz (Mazda)
 Bret Zamzow (Mazwoz)
 Paul Giles (shalkith)
 Kenneth Templeton (ktempleton)
 
 
+
+
 Devices currently supported:
-Nexus 4 (mako)
-HTC EVO 3D (shooter)
+
 HTC EVO 4G LTE (jewel)
-HTC One (M7)
-Samsung Epic 4G Touch (D710)
-Samsung Exhilarate (SGH-I577)
-Samsung T769 (SGH-T769)
-T-Mobile Samsung Galaxy S II (SGH-T989)
-Sprint Samsung Galaxy Note II (l900)
-Samsung Galaxy S III (I9300)
-Samsung Galaxy S III (d2cri)
-Samsung Galaxy S III (d2spr)
+HTC One (m7ul)
+HTC One (m7tmo)
+HTC One (m7att)
+HTC One (m7spr)
+Nexus 4 (mako)
+Nexus 10 (manta)
+Samsung Epic 4G Touch
+Samsung Galaxy S Blaze 4G
+Samsung Galaxy S Fascinate
+Samsung Galaxy S2 (Hercules)
+Samsung Galaxy S3 (AT&T)
+Samsung Galaxy S3 (TMO)
+Samsung Galaxy S3 (VZW)
+Samsung Galaxy Note 2 (SPR)
+Samsung Galaxy S4 (AT&T)
+Samsung Galaxy S4 (VZW)
+
+
 
 
 Soon to be supported:
-Galaxy Nexus (maguro/toro/toroplus)
-Droid RAZR (cdma/gsm)
+
+Samsung Galaxy Nexus (Toroplus)
+HTC EVO 3D (shooter)
+Nexus 7 (grouper / flo)
+
 
 For more info, please visit our G+ community
