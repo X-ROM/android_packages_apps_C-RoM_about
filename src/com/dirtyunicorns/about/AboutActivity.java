@@ -65,7 +65,8 @@ public class AboutActivity extends FragmentActivity {
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.dirt_tab_title),DirtFragment.class, null);  
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.maintainers_tab_title),MaintainersFragment.class, null);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.contributors_tab_title),ContributorsFragment.class, null);
-        mTabsAdapter.addTab(actionbar.newTab().setText(R.string.social_tab_title),SocialFragment.class, null);      
+        mTabsAdapter.addTab(actionbar.newTab().setText(R.string.testers_tab_title),TestersFragment.class, null);
+        mTabsAdapter.addTab(actionbar.newTab().setText(R.string.social_tab_title),SocialFragment.class, null);
        
     }
 
@@ -127,6 +128,30 @@ public class AboutActivity extends FragmentActivity {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(getString(R.string.brian_url)));
+        startActivity(intent);
+    }
+    public void launchEdwin(View view) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(getString(R.string.edwin_url)));
+        startActivity(intent);
+    }
+    public void launchBryan(View view) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(getString(R.string.bryan_url)));
+        startActivity(intent);
+    }
+    public void launchCliff(View view) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(getString(R.string.cliff_url)));
+        startActivity(intent);
+    }
+    public void launchJon(View view) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(getString(R.string.jon_url)));
         startActivity(intent);
     }
     public void launchAokp(View view) {

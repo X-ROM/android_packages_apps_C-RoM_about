@@ -32,6 +32,7 @@
     <string name="maintainers_tab_title">Maintainers</string>
     <string name="contributors_tab_title">Contributors</string>
     <string name="social_tab_title">Social</string>
+    <string name="testers_tab_title">Testers</string>
     <string name="dirt_tab_title">Team D.I.R.T</string>
 
     <!-- Social -->
@@ -48,6 +49,14 @@
     <string name="kenneth_url">https://plus.google.com/110561769492553874762</string>
     <string name="brian_devices">SGS Fascinate and SGS 4</string>
     <string name="kenneth_devices">HTC One, Samsung Epic 4GT and SGS Blaze 4G</string>
+
+    <!-- Testers -->
+    <string name="testers">Official Testers</string>
+    <string name="testers2">listed in no particular order</string>
+    <string name="cliff_url">https://plus.google.com/u/0/+CliffWade</string>
+    <string name="jon_url">https://plus.google.com/u/0/111260381467471027401</string>
+    <string name="edwin_url">https://plus.google.com/u/0/117003401706323264508</string>
+    <string name="bryan_url">https://plus.google.com/u/0/101492657083603691929</string>
 
     <!-- Contributors -->
     <string name="contributors">Contributors</string>
