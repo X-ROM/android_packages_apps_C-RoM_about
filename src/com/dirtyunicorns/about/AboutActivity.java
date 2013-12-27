@@ -130,6 +130,24 @@ public class AboutActivity extends FragmentActivity {
         intent.setData(Uri.parse(getString(R.string.brian_url)));
         startActivity(intent);
     }
+    public void launchJosh(View view) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(getString(R.string.josh_url)));
+        startActivity(intent);
+    }
+    public void launchEd(View view) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(getString(R.string.ed_url)));
+        startActivity(intent);
+    }
+    public void launchGreg(View view) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(getString(R.string.greg_url)));
+        startActivity(intent);
+    }
     public void launchEdwin(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);

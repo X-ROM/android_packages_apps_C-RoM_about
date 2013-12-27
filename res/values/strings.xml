@@ -46,9 +46,15 @@
     <!-- Maintainers -->
     <string name="devices_title">DEVICES:</string>
     <string name="brian_url">https://plus.google.com/115522815889154627721</string>
-    <string name="kenneth_url">https://plus.google.com/110561769492553874762</string>
     <string name="brian_devices">SGS Fascinate and SGS 4</string>
+    <string name="kenneth_url">https://plus.google.com/110561769492553874762</string>
     <string name="kenneth_devices">HTC One, Samsung Epic 4GT and SGS Blaze 4G</string>
+    <string name="josh_url">https://plus.google.com/u/0/+JoshChasky</string>
+    <string name="josh_devices">Nexus 5 and Nexus 7 (flo)</string>
+    <string name="greg_url">https://plus.google.com/u/0/110756697341337856778</string>
+    <string name="greg_devices">SGS4 (Jflteusc)</string>
+    <string name="ed_url">https://plus.google.com/u/0/116825710973941343705</string>
+    <string name="ed_devices">Skyrocket SGH-I727</string>
 
     <!-- Testers -->
     <string name="testers">Official Testers</string>
