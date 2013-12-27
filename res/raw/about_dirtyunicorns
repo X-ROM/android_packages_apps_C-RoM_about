@@ -1,7 +1,7 @@
 
-Based on Android Open Kang Project (AOKP)
+Based on Omni-ROM which is based off AOSP
 
-The idea to start a ROM based off AOKP with added features for us was started out of curiosity and boredom. We started compiling ROMs for personal use and later started sharing them. After sharing it with a few people, we decided to take it a step further and fine tune the way we do things. Since then, is been nothing but fun and a true learning experience for all of us involved. We've received high praise from not only users but fellow developers of other ROMs that enjoy seeing things done the right way.
+Dirty Unicorns (DU) is a custom ROM originally based off AOKP but now OMNI-ROM, brings you a great mix of stability and customization. The idea to start a ROM like this was purely out of boredom but later turned into a form of an addiction, a good one. We began to have fun while still doing things the right way. By doing so, we received high praise from not only our users but by fellow developers of other ROMs that enjoy seeing things done the right way. This ROM will always be free of charge without any strings attached or any of it's developers luring you into donating or any form of "pay to flash".
 
 ---------------------------------------------
 
@@ -17,32 +17,23 @@ Kenneth Templeton (ktempleton)
 
 Devices currently supported:
 
-HTC EVO 4G LTE (jewel)
-HTC One (m7ul)
-HTC One (m7tmo)
-HTC One (m7att)
-HTC One (m7spr)
-Nexus 4 (mako)
-Nexus 10 (manta)
+HTC One
+HTC EVO LTE
+Galaxy Nexus
+Nexus 4
+Nexus 5
+Nexus 7
+Nexus 10
 Samsung Epic 4G Touch
 Samsung Galaxy S Blaze 4G
 Samsung Galaxy S Fascinate
-Samsung Galaxy S2 (Hercules)
-Samsung Galaxy S3 (AT&T)
-Samsung Galaxy S3 (TMO)
-Samsung Galaxy S3 (VZW)
-Samsung Galaxy Note 2 (SPR)
-Samsung Galaxy S4 (AT&T)
-Samsung Galaxy S4 (VZW)
+Samsung Galaxy S2
+Samsung Galaxy S3
+Samsung Galaxy Note 2
+Samsung Galaxy S4
 
 
-
-
-Soon to be supported:
-
-Samsung Galaxy Nexus (Toroplus)
-HTC EVO 3D (shooter)
-Nexus 7 (grouper / flo)
+Supporting a device is soley based on whether or not we own the device
 
 
 For more info, please visit our G+ community

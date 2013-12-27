@@ -56,19 +56,15 @@
     <string name="cliff_url">https://plus.google.com/u/0/+CliffWade</string>
     <string name="jon_url">https://plus.google.com/u/0/111260381467471027401</string>
     <string name="edwin_url">https://plus.google.com/u/0/117003401706323264508</string>
-    <string name="bryan_url">https://plus.google.com/u/0/101492657083603691929</string>
 
     <!-- Contributors -->
     <string name="contributors">Contributors</string>
     <string name="contributors2">listed in no particular order</string>
     <string name="aokp_url">https://plus.google.com/105080186717848173196</string>
-    <string name="cm_url">https://plus.google.com/+CyanogenMod/</string>
-    <string name="pa_url">https://plus.google.com/107979589566958860409</string>
-    <string name="carbon_url">https://plus.google.com/103315278250477995368</string>
+    <string name="omni_url">https://plus.google.com/u/0/communities/102450203113748251717</string>
+    <string name="slim_url">https://plus.google.com/u/0/communities/104509876514579429216</string>
     <string name="chaos_url">https://plus.google.com/communities/118345323576530120067</string>
     <string name="preludedrew_url">https://plus.google.com/110733352602948379183</string>
-    <string name="lordclockan_url">https://plus.google.com/103606270348994952889</string>
-    <string name="daxxmax_url">https://plus.google.com/115569516936113574583</string>
 
     <!-- Team D.I.R.T -->
     <string name="dirt_title">Team D.I.R.T</string>
@@ -76,7 +72,6 @@
     <string name="barry_url">https://plus.google.com/u/0/100328966646048063058</string>
     <string name="bret_url">https://plus.google.com/u/0/100223633481073439007</string>
     <string name="dk_url">https://plus.google.com/u/0/105930089129353417025</string>
-    <string name="evol_url">https://plus.google.com/u/0/117164000095111132498</string>
     <string name="jmz_url">https://plus.google.com/u/0/114752542428879077695</string>
     <string name="kommy_url">https://plus.google.com/u/0/118219639511828551426</string>
     <string name="mazda_url">https://plus.google.com/u/0/107557684350196595860</string>

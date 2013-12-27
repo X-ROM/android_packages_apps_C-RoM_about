@@ -2,105 +2,61 @@
 
 -- Facebook Sync Hack
 
--- Expanded desktop
+-- PDroid patches included
+
+-- Immersive mode
 
 -- Hot Reboot Option
 
--- Ribbons (AOKP)
+-- Appbar (ribbons)
 
 -- Customizable Quick Settings
 
--- Custom "BAMF" Theme engine
+-- Customizable power menu
 
--- Customizable power menu (Torch, Profiles, etc)
-
--- Customizable lockscreen buttons and sliders
-
--- Missed call breathing notifications
+-- Customizable lockscreen shortcuts
 
 -- App Ops access in Settings
 
--- CM Camera Mods
+-- TRDS (built in theme in settings)
 
--- CM Powerwidget
+-- Statusbar Clock options
 
--- CM Profiles
-
--- CM apps (Apollo, DSPManager, CMFileManager, etc)
-
--- CM Privacy Guard
-
--- SlimROMs TRDS (built in theme in settings)
-
--- SlimROMs Statusbar Clock options
-
--- Transparent Statusbar and NavBar Options
+-- NavBar Options
 
 -- Halo from Paranoidandroid
 
--- Halo bubble color changer
-
 -- Halo size changer
 
--- Multi-user support
+-- Hardware key remap mod
 
--- Customizable Softkeys
+-- Battery Bar / Circle batteries
 
--- 24+ Battery options
-
--- Network speed indicator in statusbar
+-- Network speed indicators in statusbar
 
 -- Koush Superuser
 
--- Nav Bar customizations 
+-- Build.prop mods
 
--- Host file switcher (ad-free switch)
-
--- Build Propper
+-- Init.d Tweaks
 
 -- Active Display (Moto X notifications)
-
--- Wakelock blocker
-
--- Suspend Actions (power saving mod)
 
 -- ListView Animations
 
 -- Custom System Animations
 
--- Swipe to Switch in RC (toggle)
-
--- Lockscreen Tint Color Mod
-
--- Weather Panel
-
--- Change lockscreen wallpaper
-
--- OTA updates via DU Updater
-
 -- Custom BusyDialog
 
 -- Advanced Low Battery Indicator options
 
--- Music/Halo toggle/tiles
-
 -- ScreenShot QuickTrash
 
--- Paranoidandroid PIE
+-- Color Changing PhaseBeam
 
--- Color Changing PhaseBeam (OmniRom)
-
--- Recents Shortcut Bar
-
--- ChaOS Gesture anywhere
+-- Gesture Anywhere
 
 -- Button Light Notification
 
--- Status Bar Auto Hide / Quick Peek
 
--- Omni-ROM Multi-Window
-
--- Beer Bong Hybrid Engine
-
-
--- Much More, just look in Settings/RC and ENJOY!!!
+-- Much More, just look in Settings/Dirty Tweaks and ENJOY!!!

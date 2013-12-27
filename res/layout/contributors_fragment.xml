@@ -43,60 +43,39 @@
                 android:text="@string/contributors2" />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10sp"
+                android:src="@drawable/omni"
+                android:onClick="launchOmni" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:padding="10sp"
                 android:src="@drawable/aokp"
                 android:onClick="launchAokp" />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:padding="10sp"
-                android:src="@drawable/cm"
-                android:onClick="launchCm" />
+                android:src="@drawable/slim"
+                android:onClick="launchSlim" />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10sp"
-                android:src="@drawable/pa"
-                android:onClick="launchPa" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10sp"
-                android:src="@drawable/carbon"
-                android:onClick="launchCarbon" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:padding="10sp"
                 android:src="@drawable/chaos"
                 android:onClick="launchChaos" />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:padding="10sp"
                 android:src="@drawable/preludedrew"
                 android:onClick="launchPreludedrew" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10sp"
-                android:src="@drawable/lordclockan"
-                android:onClick="launchLordclockan" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10sp"
-                android:src="@drawable/daxxmax"
-                android:onClick="launchDaxxmax" />
 
             <TextView android:id="@+id/changelog"
                 android:layout_width="wrap_content"

@@ -42,32 +42,32 @@ public class AboutActivity extends FragmentActivity {
     public static Context appContext;
     private ViewPager mViewPager;
     private TabsAdapter mTabsAdapter;
-    
+
     public static final String PREFS_NAME = "About";
     public static final String DU_VERSION = "du_version";
-	
+
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mViewPager = new ViewPager(this);
         mViewPager.setId(R.id.pager);
-        
+
         setContentView(mViewPager);
         appContext = getApplicationContext();
-        
+
         ActionBar actionbar = getActionBar();
         actionbar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
         actionbar.setDisplayShowHomeEnabled(false);
         mTabsAdapter = new TabsAdapter(this, mViewPager);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.about_tab_title),AboutFragment.class, null);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.features_tab_title),FeaturesFragment.class, null);
-        mTabsAdapter.addTab(actionbar.newTab().setText(R.string.dirt_tab_title),DirtFragment.class, null);  
+        mTabsAdapter.addTab(actionbar.newTab().setText(R.string.dirt_tab_title),DirtFragment.class, null);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.maintainers_tab_title),MaintainersFragment.class, null);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.contributors_tab_title),ContributorsFragment.class, null);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.testers_tab_title),TestersFragment.class, null);
         mTabsAdapter.addTab(actionbar.newTab().setText(R.string.social_tab_title),SocialFragment.class, null);
-       
+
     }
 
     @Override
@@ -136,12 +136,6 @@ public class AboutActivity extends FragmentActivity {
         intent.setData(Uri.parse(getString(R.string.edwin_url)));
         startActivity(intent);
     }
-    public void launchBryan(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.bryan_url)));
-        startActivity(intent);
-    }
     public void launchCliff(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
@@ -160,22 +154,16 @@ public class AboutActivity extends FragmentActivity {
         intent.setData(Uri.parse(getString(R.string.aokp_url)));
         startActivity(intent);
     }
-    public void launchCm(View view) {
+    public void launchOmni(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.cm_url)));
+        intent.setData(Uri.parse(getString(R.string.omni_url)));
         startActivity(intent);
     }
-    public void launchPa(View view) {
+    public void launchSlim(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.pa_url)));
-        startActivity(intent);
-    }
-    public void launchCarbon(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.carbon_url)));
+        intent.setData(Uri.parse(getString(R.string.slim_url)));
         startActivity(intent);
     }
     public void launchChaos(View view) {
@@ -188,18 +176,6 @@ public class AboutActivity extends FragmentActivity {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(getString(R.string.preludedrew_url)));
-        startActivity(intent);
-    }
-    public void launchLordclockan(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.lordclockan_url)));
-        startActivity(intent);
-    }
-    public void launchDaxxmax(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.daxxmax_url)));
         startActivity(intent);
     }
     public void launchBarry(View view) {
@@ -218,12 +194,6 @@ public class AboutActivity extends FragmentActivity {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(getString(R.string.dk_url)));
-        startActivity(intent);
-    }
-    public void launchEvol(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.evol_url)));
         startActivity(intent);
     }
     public void launchJmz(View view) {
@@ -262,7 +232,7 @@ public class AboutActivity extends FragmentActivity {
         intent.setData(Uri.parse(getString(R.string.reduxd_url)));
         startActivity(intent);
     }
-    
+
     public static class TabsAdapter extends FragmentPagerAdapter
     implements ActionBar.TabListener, ViewPager.OnPageChangeListener {
     	private static final String TAG = "About DirtyUnicorns";
@@ -336,14 +306,14 @@ public class AboutActivity extends FragmentActivity {
 
 		@Override
 		public void onTabReselected(Tab arg0, FragmentTransaction arg1) {
-			
-			
+
+
 		}
 
 		@Override
 		public void onTabUnselected(Tab arg0, FragmentTransaction arg1) {
-			
-			
+
+
 		}
     }
 }
