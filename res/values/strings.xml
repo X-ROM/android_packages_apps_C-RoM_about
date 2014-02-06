@@ -55,11 +55,12 @@
     <string name="greg_devices">SGS4 (Jflteusc)</string>
     <string name="ed_url">https://plus.google.com/u/0/116825710973941343705</string>
     <string name="ed_devices">Skyrocket SGH-I727</string>
+    <string name="bosko_url">https://plus.google.com/u/0/+BoskoTrkulja</string>
+    <string name="bosko_devices">Xperia Z and N7000</string>
 
     <!-- Testers -->
     <string name="testers">Official Testers</string>
     <string name="testers2">listed in no particular order</string>
-    <string name="cliff_url">https://plus.google.com/u/0/+CliffWade</string>
     <string name="jon_url">https://plus.google.com/u/0/111260381467471027401</string>
     <string name="edwin_url">https://plus.google.com/u/0/117003401706323264508</string>
 
@@ -71,6 +72,7 @@
     <string name="slim_url">https://plus.google.com/u/0/communities/104509876514579429216</string>
     <string name="chaos_url">https://plus.google.com/communities/118345323576530120067</string>
     <string name="preludedrew_url">https://plus.google.com/110733352602948379183</string>
+    <string name="mat_url">https://plus.google.com/u/0/+MatPls</string>
 
     <!-- Team D.I.R.T -->
     <string name="dirt_title">Team D.I.R.T</string>

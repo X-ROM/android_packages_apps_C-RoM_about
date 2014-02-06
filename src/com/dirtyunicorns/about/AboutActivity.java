@@ -148,16 +148,16 @@ public class AboutActivity extends FragmentActivity {
         intent.setData(Uri.parse(getString(R.string.greg_url)));
         startActivity(intent);
     }
+    public void launchBosko(View view) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(getString(R.string.bosko_url)));
+        startActivity(intent);
+    }
     public void launchEdwin(View view) {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(getString(R.string.edwin_url)));
-        startActivity(intent);
-    }
-    public void launchCliff(View view) {
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(getString(R.string.cliff_url)));
         startActivity(intent);
     }
     public void launchJon(View view) {
@@ -194,6 +194,12 @@ public class AboutActivity extends FragmentActivity {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(getString(R.string.preludedrew_url)));
+        startActivity(intent);
+    }
+    public void launchMat(View view) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(getString(R.string.mat_url)));
         startActivity(intent);
     }
     public void launchBarry(View view) {

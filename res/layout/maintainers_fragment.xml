@@ -147,6 +147,27 @@
                 android:textSize="15sp"
                 android:text="@string/greg_devices" />
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:src="@drawable/bosko"
+                android:onClick="launchBosko" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingBottom="5sp"
+                android:text="@string/devices_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5sp"
+                android:textSize="15sp"
+                android:text="@string/bosko_devices" />
+
             <TextView android:id="@+id/maintainers"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
